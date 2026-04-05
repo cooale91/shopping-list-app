@@ -72,42 +72,6 @@
     ]
   },
   {
-    "name": "Vegetable Soup",
-    "default_servings": 4,
-    "ingredients": [
-      {
-        "name": "Carrots",
-        "quantity": 4,
-        "unit": "",
-        "category": "Vegetables"
-      },
-      {
-        "name": "Celery sticks",
-        "quantity": 3,
-        "unit": "",
-        "category": "Vegetables"
-      },
-      {
-        "name": "Onion",
-        "quantity": 1,
-        "unit": "",
-        "category": "Vegetables"
-      },
-      {
-        "name": "Vegetable stock",
-        "quantity": 1,
-        "unit": "litre",
-        "category": "Cupboard"
-      },
-      {
-        "name": "Potatoes",
-        "quantity": 4,
-        "unit": "",
-        "category": "Vegetables"
-      }
-    ]
-  },
-  {
     "name": "Fajitas",
     "default_servings": 4,
     "ingredients": [
