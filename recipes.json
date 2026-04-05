@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Spaghetti Bolognese",
+    "default_servings": 4,
+    "ingredients": [
+      {
+        "name": "Onion",
+        "quantity": 2,
+        "unit": "",
+        "category": "Vegetables"
+      },
+      {
+        "name": "Garlic cloves",
+        "quantity": 2,
+        "unit": "",
+        "category": "Vegetables"
+      },
+      {
+        "name": "Beef mince",
+        "quantity": 500,
+        "unit": "g",
+        "category": "Meat"
+      },
+      {
+        "name": "Chopped tomatoes",
+        "quantity": 2,
+        "unit": "tin",
+        "category": "Tins & Jars"
+      },
+      {
+        "name": "Spaghetti",
+        "quantity": 400,
+        "unit": "g",
+        "category": "Pasta & Rice"
+      }
+    ]
+  },
+  {
+    "name": "Chicken Curry",
+    "default_servings": 4,
+    "ingredients": [
+      {
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "Meat"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "",
+        "category": "Vegetables"
+      },
+      {
+        "name": "Garlic cloves",
+        "quantity": 3,
+        "unit": "",
+        "category": "Vegetables"
+      },
+      {
+        "name": "Coconut milk",
+        "quantity": 400,
+        "unit": "ml",
+        "category": "Tins & Jars"
+      },
+      {
+        "name": "Rice",
+        "quantity": 300,
+        "unit": "g",
+        "category": "Pasta & Rice"
+      }
+    ]
+  },
+  {
+    "name": "Vegetable Soup",
+    "default_servings": 4,
+    "ingredients": [
+      {
+        "name": "Carrots",
+        "quantity": 4,
+        "unit": "",
+        "category": "Vegetables"
+      },
+      {
+        "name": "Celery sticks",
+        "quantity": 3,
+        "unit": "",
+        "category": "Vegetables"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "",
+        "category": "Vegetables"
+      },
+      {
+        "name": "Vegetable stock",
+        "quantity": 1,
+        "unit": "litre",
+        "category": "Cupboard"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": 4,
+        "unit": "",
+        "category": "Vegetables"
+      }
+    ]
+  },
+  {
+    "name": "Fajitas",
+    "default_servings": 4,
+    "ingredients": [
+      {
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "Meat"
+      },
+      {
+        "name": "Peppers",
+        "quantity": 3,
+        "unit": "",
+        "category": "Vegetables"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "",
+        "category": "Vegetables"
+      },
+      {
+        "name": "Tortilla wraps",
+        "quantity": 8,
+        "unit": "",
+        "category": "Bakery"
+      },
+      {
+        "name": "Sour cream",
+        "quantity": 300,
+        "unit": "ml",
+        "category": "Dairy"
+      }
+    ]
+  }
+]
