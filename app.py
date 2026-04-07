@@ -278,7 +278,7 @@ def fetch_shared_shopping_list():
         f"{API_BASE_URL}/api/list",
         params={"user_id": USER_ID},
         headers=backend_headers(),
-        timeout=10,
+        timeout=30,
     )
     resp.raise_for_status()
     return resp.json().get("items", [])
@@ -288,7 +288,7 @@ def add_shared_item(item: str):
         f"{API_BASE_URL}/api/list/items",
         json={"user_id": USER_ID, "item": item},
         headers=backend_headers(),
-        timeout=10,
+        timeout=30,
     )
     resp.raise_for_status()
     return resp.json().get("items", [])
@@ -298,7 +298,7 @@ def remove_shared_item(item: str):
         f"{API_BASE_URL}/api/list/items",
         json={"user_id": USER_ID, "item": item},
         headers=backend_headers(),
-        timeout=10,
+        timeout=30,
     )
     resp.raise_for_status()
     return resp.json().get("items", [])
@@ -308,7 +308,7 @@ def clear_shared_list():
         f"{API_BASE_URL}/api/list/clear",
         json={"user_id": USER_ID},
         headers=backend_headers(),
-        timeout=10,
+        timeout=30,
     )
     resp.raise_for_status()
     return resp.json().get("items", [])
